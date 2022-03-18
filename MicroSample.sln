@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{D41E1B39-8B7B-4E99-BDC6-1D222FA693F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{88C2899D-5E32-4603-BEC5-6E3000F8DCAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A63AD3F5-C1BB-480B-BE25-58F0B5AB5C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{6799E08F-ABB1-4756-83EA-891455DD560E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{2B60041B-A340-4EBD-974E-C642BE8FEF45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D41E1B39-8B7B-4E99-BDC6-1D222FA693F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41E1B39-8B7B-4E99-BDC6-1D222FA693F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41E1B39-8B7B-4E99-BDC6-1D222FA693F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41E1B39-8B7B-4E99-BDC6-1D222FA693F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6799E08F-ABB1-4756-83EA-891455DD560E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6799E08F-ABB1-4756-83EA-891455DD560E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6799E08F-ABB1-4756-83EA-891455DD560E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6799E08F-ABB1-4756-83EA-891455DD560E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B60041B-A340-4EBD-974E-C642BE8FEF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B60041B-A340-4EBD-974E-C642BE8FEF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B60041B-A340-4EBD-974E-C642BE8FEF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B60041B-A340-4EBD-974E-C642BE8FEF45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D41E1B39-8B7B-4E99-BDC6-1D222FA693F9} = {88C2899D-5E32-4603-BEC5-6E3000F8DCAE}
+		{6799E08F-ABB1-4756-83EA-891455DD560E} = {88C2899D-5E32-4603-BEC5-6E3000F8DCAE}
+		{2B60041B-A340-4EBD-974E-C642BE8FEF45} = {88C2899D-5E32-4603-BEC5-6E3000F8DCAE}
+	EndGlobalSection
+EndGlobal
